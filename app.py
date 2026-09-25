@@ -21,23 +21,25 @@ st.markdown("""
     .app-header h1 {
         font-size: 2rem;
         margin-bottom: 0.15rem;
+        color: var(--text-color);
     }
     .app-header p {
-        color: #6b7280;
+        color: var(--text-color);
+        opacity: 0.65;
         font-size: 0.95rem;
         margin-top: 0;
     }
 
     div[data-testid="stFileUploader"] section {
-        border: 1.5px dashed #c7cdd6;
+        border: 1.5px dashed rgba(128, 128, 128, 0.4);
         border-radius: 12px;
-        background: #fafbfc;
+        background: rgba(128, 128, 128, 0.06);
     }
 
     .step-label {
         font-weight: 600;
         font-size: 0.95rem;
-        color: #1f2937;
+        color: var(--text-color);
         margin-bottom: 0.25rem;
     }
 
@@ -52,7 +54,7 @@ st.markdown("""
 
     div[data-testid="stExpander"] {
         border-radius: 10px;
-        border: 1px solid #e5e7eb;
+        border: 1px solid rgba(128, 128, 128, 0.3);
     }
 
     hr { margin: 1.5rem 0; }
